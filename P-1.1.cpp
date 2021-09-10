@@ -40,7 +40,7 @@ int main() {
     //we assume that the same word can have multiple types, there is a possibility that 
     //the same word can have all the letters misput, but given the randomness of the scenario, it is less likely
 
-    //lets print the sentence 10  times first
+    
     for (int b = 0; b < 100; b++) {
         
         //defaulting all citical variables and vectors for the new cycle
