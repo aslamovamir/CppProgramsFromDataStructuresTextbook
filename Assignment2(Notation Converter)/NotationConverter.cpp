@@ -5,24 +5,12 @@
 DoubleList::DoubleList() {
     header = new Element;
     trailer = new Element;
-    
-    //REMOVE
-    // Element *test = new Element;
-    // test->element = 'T';
-    
-
 
     header->element = '+';
     trailer->element = '-';
 
     header->next = trailer;
     trailer->prev = header;
-
-    //REMOVE
-    // test->next = header->next;
-    // test->prev = header;
-    // header->next->prev = test;
-    // header->next = test;
 }
 
 //destructor for the list
